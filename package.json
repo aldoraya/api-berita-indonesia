@@ -1,0 +1,24 @@
+{
+  "name": "news_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auth": "^0.0.9",
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "math": "^0.0.3",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
