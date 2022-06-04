@@ -71,8 +71,6 @@ h2{
     transition: transform 0.3s ease;
 }
 
-
-
 .Hover-effect:hover::after {
     transform: scale(1, 1);
 }
