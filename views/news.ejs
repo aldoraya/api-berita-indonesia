@@ -75,9 +75,9 @@
                     <% } else{ %>
                         <a href="<%- article.url %>" target="_blank" style="-webkit-tap-highlight-color: transparent;" class="news-box md:Hover-effect h-36 md:h-52 my-0 md:my-5 relative top-16 flex md:hover:text-red-500 border-b border-gray-200">
 
-                            <img class="w-24 h-20 md:h-40 md:w-72" src="<%- article.urlToImage %>" alt="Image">
+                            <img class="w-20 h-20 md:h-40 md:w-72" src="<%- article.urlToImage %>" alt="Image">
                             <div class="block md:mx-6 ml-4 mr-2">
-                                <h3 class="text-sm md:text-xl font-semibold w-full">
+                                <h3 class="text-xs md:text-xl font-semibold w-full">
                                     <%- article.title %>
                                 </h3>
                                 <p class="text-xs md:text-base"><span class="" ><%- new Date(article.publishedAt.slice(0,10)).toDateString() %> </span></p>
